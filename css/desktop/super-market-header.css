@@ -252,6 +252,7 @@
               .super-market-mega-menu {
                 width: 50vw;
                 height: 60vh;
+                margin-right: 74px;
                 background-color: #ffffff;
                 position: absolute;
                 right: 50px;
@@ -542,7 +543,7 @@
                   margin-top: 10px;
                   background-color: #f0f0f1;
                   border: none;
-                  border-radius: 30px;
+                  border-radius: 8px;
                   padding: 0 20px;
                   font-family: var(--font-family);
                   font-size: 16px;
@@ -551,7 +552,10 @@
                   letter-spacing: 0.3px;
                   color: #141414;
                   outline: none;
-                  &::placeholder {
+                  &
+                  :placeholder 
+                  
+{
                     font-family: var(--font-family);
                     font-size: 12px;
                     font-weight: 500;
